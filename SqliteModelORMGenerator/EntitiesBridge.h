@@ -9,8 +9,6 @@
 #ifndef EntitiesBridge_h
 #define EntitiesBridge_h
 
-#define EntityNames @"ShoppingCarProducts\nAppPayRecordModel\nAppVersionCheckModel"
-#import "ShoppingCarProducts.h"
-#import "AppPayRecordModel.h"
-#import "AppVersionCheckModel.h"
+#define EntityNames @"xx\nxx\nxx"
+
 #endif /* EntitiesBridge_h */

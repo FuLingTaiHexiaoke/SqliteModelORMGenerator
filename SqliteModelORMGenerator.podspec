@@ -91,7 +91,7 @@ covert oc model into Sqlite ORM Entity code in xcode log console.then you can co
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SqliteModelORMGenerator/**/*.{h,m}"
+  s.source_files  = "SqliteModelORMGenerator/*.{h,m}", "SqliteModelORMGenerator/*.{xib}"
   #  s.source_files  = "Classes", "SqliteModelORMGenerator/**/*.{h,m}"
 
   s.exclude_files = "Classes/Exclude"
