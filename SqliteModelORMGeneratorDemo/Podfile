@@ -1,6 +1,0 @@
-#pod install --verbose --no-repo-update
-
-target ‘SqliteModelORMGeneratorDemo’ do
- pod 'FMDB'
-end
-
