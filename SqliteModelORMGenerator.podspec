@@ -105,7 +105,7 @@ covert oc model into Sqlite ORM Entity code in xcode log console.then you can co
   #  non-essential files like tests, examples and documentation.
   #
 
-# s.resource  = "SqliteModelORMGenerator/*.{xib}"
+ s.resource  = "SqliteModelORMGenerator/*.{xib}"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
