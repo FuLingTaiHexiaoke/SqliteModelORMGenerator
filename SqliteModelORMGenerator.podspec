@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SqliteModelORMGenerator"
   s.version      = "0.0.1"
-  s.summary      = "Ios simple Sqlite ORM tool,help you deal with Sqlite operation without yourself coding"
+  s.summary      = "A short description of SqliteModelORMGenerator."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 covert oc model into Sqlite ORM Entity code in xcode log console.then you can copy this code in .m file,then you can use the class functions(createTable+deleteTable+selectWhere+selectAll+insertWithObject(s)+updateWithObject(s)) to perform your persistence actions with sqlite)
                    DESC
 
-  s.homepage     = "https://github.com/FuLingTaiHexiaoke/SqliteModelORMGenerator.git"
+  s.homepage     = "https://github.com/FuLingTaiHexiaoke/SqliteModelORMGenerator"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,7 +64,7 @@ covert oc model into Sqlite ORM Entity code in xcode log console.then you can co
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+    s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -91,9 +91,7 @@ covert oc model into Sqlite ORM Entity code in xcode log console.then you can co
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SqliteModelORMGenerator/*.{h,m}", "SqliteModelORMGenerator/*.{xib}"
-  #  s.source_files  = "Classes", "SqliteModelORMGenerator/**/*.{h,m}"
-
+  s.source_files  = "SqliteModelORMGenerator/*.{xib}", "SqliteModelORMGenerator/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -132,11 +130,9 @@ covert oc model into Sqlite ORM Entity code in xcode log console.then you can co
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+  # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
- s.dependency "FMDB", "~> 2.7.5"
-
+   s.dependency "FMDB", "~> 2.7.5"
 
 end
