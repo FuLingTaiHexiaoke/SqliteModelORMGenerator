@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "SqliteModelORMGenerator"
-s.version      = "0.0.2"
+s.version      = "0.0.4"
 s.summary      = "SqliteModelORMGenerator help use sqlite with ORM(Object Relational Mapping).will help you a lot without write any SQL sentence in simple situation"
 
 # This description is used to generate tags and improve search results.
