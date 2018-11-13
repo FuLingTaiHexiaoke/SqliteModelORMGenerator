@@ -33,8 +33,7 @@ $ cd /path/to/MyProject
 $ touch Podfile
 $ edit Podfile
 platform :ios, '5.0' 
-# Or platform :osx, '10.7'
-pod 'SqliteModelORMGenerator', '~> 0.0.6'
+pod 'SqliteModelORMGenerator', '~> 0.0.8'
 ```
 
 Install into your project:
