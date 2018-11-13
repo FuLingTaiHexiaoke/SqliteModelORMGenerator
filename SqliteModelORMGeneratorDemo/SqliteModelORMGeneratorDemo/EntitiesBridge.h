@@ -9,6 +9,6 @@
 #ifndef EntitiesBridge_h
 #define EntitiesBridge_h
 
-#define EntityNames @"ShoppingCarProducts\nAppPayRecordModel\nAppVersionCheckModel"
+#define EntityNames @"EmotionGroup\n"
 #import "EmotionGroup.h"
 #endif /* EntitiesBridge_h */
