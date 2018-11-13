@@ -2,5 +2,6 @@
 
 target ‘SqliteModelORMGeneratorDemo’ do
  pod 'FMDB'
+ pod 'SqliteModelORMGenerator'
 end
 

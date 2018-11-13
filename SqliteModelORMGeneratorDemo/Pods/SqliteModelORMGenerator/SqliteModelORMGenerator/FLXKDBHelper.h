@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FMDB.h"
+//#import "FMDB.h"
+#import <fmdb/FMDB.h>
 @interface FLXKDBHelper : NSObject
 
 @property (nonatomic, retain, readonly) FMDatabaseQueue *dbQueue;

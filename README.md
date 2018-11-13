@@ -51,4 +51,4 @@ $ open MyProject.xcworkspace
 
 ### Via Source Code
 
-Simply add `FLXKDBHelper.h` , `FLXKDBHelper.m` , `EntitiesBridge.h` ,`EntityGeneratorViewController.h` , `EntityGeneratorViewController.m`,`EntityGeneratorViewController.xib` to your project.For details please see my demo,then you can understand it quickly
+Simply add `FLXKDBHelper.h` , `FLXKDBHelper.m` , `EntityGeneratorViewController.h` , `EntityGeneratorViewController.m`,`EntityGeneratorViewController.xib` to your project.For details please see my demo,then you can understand it quickly

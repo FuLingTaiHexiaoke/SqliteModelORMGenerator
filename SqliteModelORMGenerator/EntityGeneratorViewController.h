@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EntitiesBridge.h"
-
 
 @interface EntityGeneratorViewController : UIViewController
-
+@property (nonatomic) NSString* modelNames;
 @end

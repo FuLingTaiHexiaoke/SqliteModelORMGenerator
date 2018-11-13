@@ -31,6 +31,7 @@
 
 -(void)showEntityGenerator{
     EntityGeneratorViewController* entityGeneratorViewController=[[EntityGeneratorViewController alloc]initWithNibName:@"EntityGeneratorViewController" bundle:nil];
+    entityGeneratorViewController.modelNames = @"EmotionGroup\nEmotionGroup\nEmotionGroup";
     [self presentViewController:entityGeneratorViewController animated:YES completion:nil];
 }
 

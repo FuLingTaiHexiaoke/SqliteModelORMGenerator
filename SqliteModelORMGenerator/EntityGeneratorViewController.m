@@ -64,7 +64,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //    self.className.text=@"TestEntity";
+    
     UIButton* btn = [[UIButton alloc]initWithFrame:CGRectMake(50, 50, 50, 50)];
     [btn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
     btn.backgroundColor = [UIColor yellowColor];
@@ -72,7 +72,7 @@
     
     UITextView* textView = [[UITextView alloc]initWithFrame:CGRectMake(200, 200, 200, 200)];
     textView.backgroundColor = [UIColor greenColor];
-    textView.text=EntityNames;
+    textView.text=self.modelNames;
     [self.view addSubview:textView];
 }
 
@@ -118,7 +118,7 @@
 }
 
 - (IBAction)insert:(id)sender {
-
+    
 }
 
 - (IBAction)select:(id)sender {
@@ -248,10 +248,10 @@
     
     [keyString deleteCharactersInRange:NSMakeRange(keyString.length - 1, 1)];
     [insertValues deleteCharactersInRange:NSMakeRange(insertValues.length - 1, 1)];
-//    [sqlSelect appendFormat:@"//NSString *keyString =@\"%@\";\n",keyString];
-//    [sqlSelect appendFormat:@"//NSString *insertValues =@\"%@\";\n",insertValues];
-//    [sqlSelect appendString:@"\n"];
-//    [sqlSelect appendString:@"\n"];
+    //    [sqlSelect appendFormat:@"//NSString *keyString =@\"%@\";\n",keyString];
+    //    [sqlSelect appendFormat:@"//NSString *insertValues =@\"%@\";\n",insertValues];
+    //    [sqlSelect appendString:@"\n"];
+    //    [sqlSelect appendString:@"\n"];
     [sqlSelect appendString:@"\n"];
     [sqlSelect appendString:@"FLXKDBHelper *FLXKDB = [FLXKDBHelper shareInstance];\n"];
     [sqlSelect appendString:@"[FLXKDB.dbQueue inTransaction:^(FMDatabase *db, BOOL *rollback) {\n"];
@@ -328,10 +328,10 @@
     
     [keyString deleteCharactersInRange:NSMakeRange(keyString.length - 1, 1)];
     [insertValues deleteCharactersInRange:NSMakeRange(insertValues.length - 1, 1)];
-//    [sqlSelect appendFormat:@"//NSString *keyString =@\"%@\";\n",keyString];
-//    [sqlSelect appendFormat:@"//NSString *insertValues =@\"%@\";\n",insertValues];
-//    [sqlSelect appendString:@"\n"];
-//    [sqlSelect appendString:@"\n"];
+    //    [sqlSelect appendFormat:@"//NSString *keyString =@\"%@\";\n",keyString];
+    //    [sqlSelect appendFormat:@"//NSString *insertValues =@\"%@\";\n",insertValues];
+    //    [sqlSelect appendString:@"\n"];
+    //    [sqlSelect appendString:@"\n"];
     [sqlSelect appendString:@"\n"];
     [sqlSelect appendString:@"FLXKDBHelper *FLXKDB = [FLXKDBHelper shareInstance];\n"];
     [sqlSelect appendString:@"[FLXKDB.dbQueue inTransaction:^(FMDatabase *db, BOOL *rollback) {\n"];
@@ -411,11 +411,11 @@
     [keyString deleteCharactersInRange:NSMakeRange(keyString.length - 1, 1)];
     [valueString deleteCharactersInRange:NSMakeRange(valueString.length - 1, 1)];
     [insertValues deleteCharactersInRange:NSMakeRange(insertValues.length - 1, 1)];
-//    [sqlSelect appendFormat:@"//NSString *keyString =@\"%@\";\n",keyString];
-//    [sqlSelect appendFormat:@"//NSString *valueString =@\"%@\";\n",valueString];
-//    [sqlSelect appendFormat:@"//NSString *insertValues =@\"%@\";\n",insertValues];
-//    [sqlSelect appendString:@"\n"];
-//    [sqlSelect appendString:@"\n"];
+    //    [sqlSelect appendFormat:@"//NSString *keyString =@\"%@\";\n",keyString];
+    //    [sqlSelect appendFormat:@"//NSString *valueString =@\"%@\";\n",valueString];
+    //    [sqlSelect appendFormat:@"//NSString *insertValues =@\"%@\";\n",insertValues];
+    //    [sqlSelect appendString:@"\n"];
+    //    [sqlSelect appendString:@"\n"];
     [sqlSelect appendString:@"\n"];
     [sqlSelect appendString:@"FLXKDBHelper *FLXKDB = [FLXKDBHelper shareInstance];\n"];
     [sqlSelect appendString:@"[FLXKDB.dbQueue inTransaction:^(FMDatabase *db, BOOL *rollback) {\n"];
@@ -503,11 +503,11 @@
     [keyString deleteCharactersInRange:NSMakeRange(keyString.length - 1, 1)];
     [valueString deleteCharactersInRange:NSMakeRange(valueString.length - 1, 1)];
     [insertValues deleteCharactersInRange:NSMakeRange(insertValues.length - 1, 1)];
-//    [sqlSelect appendFormat:@"//NSString *keyString =@\"%@\";\n",keyString];
-//    [sqlSelect appendFormat:@"//NSString *valueString =@\"%@\";\n",valueString];
-//    [sqlSelect appendFormat:@"//NSString *insertValues =@\"%@\";\n",insertValues];
-//    [sqlSelect appendString:@"\n"];
-//    [sqlSelect appendString:@"\n"];
+    //    [sqlSelect appendFormat:@"//NSString *keyString =@\"%@\";\n",keyString];
+    //    [sqlSelect appendFormat:@"//NSString *valueString =@\"%@\";\n",valueString];
+    //    [sqlSelect appendFormat:@"//NSString *insertValues =@\"%@\";\n",insertValues];
+    //    [sqlSelect appendString:@"\n"];
+    //    [sqlSelect appendString:@"\n"];
     [sqlSelect appendString:@"\n"];
     [sqlSelect appendString:@"FLXKDBHelper *FLXKDB = [FLXKDBHelper shareInstance];\n"];
     [sqlSelect appendString:@"[FLXKDB.dbQueue inTransaction:^(FMDatabase *db, BOOL *rollback) {\n"];

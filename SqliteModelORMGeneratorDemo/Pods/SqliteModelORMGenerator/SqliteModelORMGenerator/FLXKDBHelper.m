@@ -34,7 +34,7 @@ static FLXKDBHelper *_instance = nil;
     NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
     NSFileManager *filemanage = [NSFileManager defaultManager];
     if (directoryName == nil || directoryName.length == 0) {
-        documentDirectory = [documentDirectory stringByAppendingPathComponent:@"FLXKEmotionDB"];
+        documentDirectory = [documentDirectory stringByAppendingPathComponent:@"SSCashierDB"];
     } else {
         documentDirectory = [documentDirectory stringByAppendingPathComponent:directoryName];
     }
@@ -47,9 +47,9 @@ static FLXKDBHelper *_instance = nil;
     }
 
     //set dbPath
-    NSString *dbPath = [documentDirectory stringByAppendingPathComponent:@"FLXKEmotionDB.sqlite"];
+    NSString *dbPath = [documentDirectory stringByAppendingPathComponent:@"SSCashierDB.sqlite"];
 
-    NSLog(@"FLXKEmotionDB Directory:\n%@",dbPath);
+    NSLog(@"SSCashierDB Directory:\n%@",dbPath);
     return dbPath;
 
 }
@@ -60,7 +60,7 @@ static FLXKDBHelper *_instance = nil;
 //    NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 //    NSFileManager *filemanage = [NSFileManager defaultManager];
 //    if (directoryName == nil || directoryName.length == 0) {
-//        documentDirectory = [documentDirectory stringByAppendingPathComponent:@"FLXKEmotionDB"];
+//        documentDirectory = [documentDirectory stringByAppendingPathComponent:@"SSCashierDB"];
 //    } else {
 //        documentDirectory = [documentDirectory stringByAppendingPathComponent:directoryName];
 //    }
@@ -73,21 +73,21 @@ static FLXKDBHelper *_instance = nil;
 //    }
 //
 //    //set dbPath
-//    NSString *dbPath = [documentDirectory stringByAppendingPathComponent:@"FLXKEmotionDB.sqlite"];
+//    NSString *dbPath = [documentDirectory stringByAppendingPathComponent:@"SSCashierDB.sqlite"];
 //
 //    //check if already sqlite exist
 //    BOOL dbExit =[filemanage fileExistsAtPath:dbPath];
 //    if (DEBUG) {
 //        if (dbExit) {
 //            [filemanage removeItemAtPath:dbPath error:nil];
-//            NSString* bundleDBPath=[[NSBundle mainBundle]pathForResource:@"FLXKEmotionDB" ofType:@"sqlite"];
+//            NSString* bundleDBPath=[[NSBundle mainBundle]pathForResource:@"SSCashierDB" ofType:@"sqlite"];
 //            BOOL bundleDBExit =[filemanage fileExistsAtPath:bundleDBPath];
 //            if (bundleDBExit) {
 //                [filemanage copyItemAtPath:bundleDBPath toPath:dbPath error:nil];
 //            }
 //        }
 //        else{
-//            NSString* bundleDBPath=[[NSBundle mainBundle]pathForResource:@"FLXKEmotionDB" ofType:@"sqlite"];
+//            NSString* bundleDBPath=[[NSBundle mainBundle]pathForResource:@"SSCashierDB" ofType:@"sqlite"];
 //            BOOL bundleDBExit =[filemanage fileExistsAtPath:bundleDBPath];
 //            if (bundleDBExit) {
 //                [filemanage copyItemAtPath:bundleDBPath toPath:dbPath error:nil];
@@ -96,7 +96,7 @@ static FLXKDBHelper *_instance = nil;
 //    }
 //    else{
 //        if (!dbExit) {
-//            NSString* bundleDBPath=[[NSBundle mainBundle]pathForResource:@"FLXKEmotionDB" ofType:@"sqlite"];
+//            NSString* bundleDBPath=[[NSBundle mainBundle]pathForResource:@"SSCashierDB" ofType:@"sqlite"];
 //            BOOL bundleDBExit =[filemanage fileExistsAtPath:bundleDBPath];
 //            if (bundleDBExit) {
 //                [filemanage copyItemAtPath:bundleDBPath toPath:dbPath error:nil];
@@ -104,7 +104,7 @@ static FLXKDBHelper *_instance = nil;
 //        }
 //    }
 //
-//    NSLog(@"FLXKEmotionDB Directory:\n%@",dbPath);
+//    NSLog(@"SSCashierDB Directory:\n%@",dbPath);
 //    return dbPath;
 //
 //}

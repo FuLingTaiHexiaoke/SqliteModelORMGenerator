@@ -2,17 +2,22 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - SqliteModelORMGenerator (0.0.6):
+    - FMDB (~> 2.7.5)
 
 DEPENDENCIES:
   - FMDB
+  - SqliteModelORMGenerator
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FMDB
+    - SqliteModelORMGenerator
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  SqliteModelORMGenerator: ae496854361c73aeef53e7ddcea4d679a1820d58
 
-PODFILE CHECKSUM: 96deb9c01181894413c69962002c1ec54900f8f8
+PODFILE CHECKSUM: 3ebf2ed31c389a0d189851897552f2fd51d27ce7
 
 COCOAPODS: 1.5.3

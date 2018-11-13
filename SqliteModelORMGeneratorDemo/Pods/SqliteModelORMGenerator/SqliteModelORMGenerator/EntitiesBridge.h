@@ -9,7 +9,6 @@
 #ifndef EntitiesBridge_h
 #define EntitiesBridge_h
 
-#define EntityNames @"xx1\nxx2\nxx3"
-//#import "xx1.h"
+#define EntityNames @"xx\nxx\nxx"
 
 #endif /* EntitiesBridge_h */

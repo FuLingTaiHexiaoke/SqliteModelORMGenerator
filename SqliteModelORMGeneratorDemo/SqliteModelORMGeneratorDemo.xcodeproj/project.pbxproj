@@ -13,9 +13,6 @@
 		0A284B5621992DE300701EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A284B5521992DE300701EEA /* Assets.xcassets */; };
 		0A284B5921992DE300701EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A284B5721992DE300701EEA /* LaunchScreen.storyboard */; };
 		0A284B5C21992DE300701EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A284B5B21992DE300701EEA /* main.m */; };
-		0A284B6821994BB900701EEA /* FLXKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A284B6321994BB800701EEA /* FLXKDBHelper.m */; };
-		0A284B6921994BB900701EEA /* EntityGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A284B6421994BB800701EEA /* EntityGeneratorViewController.m */; };
-		0A284B6A21994BB900701EEA /* EntityGeneratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A284B6621994BB900701EEA /* EntityGeneratorViewController.xib */; };
 		0A284B7421994BCF00701EEA /* EmotionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A284B6D21994BCF00701EEA /* EmotionGroup.m */; };
 		0A284B7821994BCF00701EEA /* FLXKEmotionDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0A284B7221994BCF00701EEA /* FLXKEmotionDB.sqlite */; };
 		9144CC448AEF3D4C89FC7EEA /* libPods-SqliteModelORMGeneratorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D96A12C62975F943BFE8CA2 /* libPods-SqliteModelORMGeneratorDemo.a */; };
@@ -32,12 +29,6 @@
 		0A284B5821992DE300701EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A284B5A21992DE300701EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A284B5B21992DE300701EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0A284B6221994BB800701EEA /* FLXKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXKDBHelper.h; sourceTree = "<group>"; };
-		0A284B6321994BB800701EEA /* FLXKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXKDBHelper.m; sourceTree = "<group>"; };
-		0A284B6421994BB800701EEA /* EntityGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityGeneratorViewController.m; sourceTree = "<group>"; };
-		0A284B6521994BB800701EEA /* EntityGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityGeneratorViewController.h; sourceTree = "<group>"; };
-		0A284B6621994BB900701EEA /* EntityGeneratorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntityGeneratorViewController.xib; sourceTree = "<group>"; };
-		0A284B6721994BB900701EEA /* EntitiesBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntitiesBridge.h; sourceTree = "<group>"; };
 		0A284B6D21994BCF00701EEA /* EmotionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionGroup.m; sourceTree = "<group>"; };
 		0A284B7021994BCF00701EEA /* EmotionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionGroup.h; sourceTree = "<group>"; };
 		0A284B7221994BCF00701EEA /* FLXKEmotionDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FLXKEmotionDB.sqlite; sourceTree = "<group>"; };
@@ -79,17 +70,12 @@
 		0A284B4B21992DE100701EEA /* SqliteModelORMGeneratorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0A7F32C2219AA83A00741275 /* Souce */,
 				0A284B4C21992DE100701EEA /* AppDelegate.h */,
 				0A284B4D21992DE100701EEA /* AppDelegate.m */,
 				0A284B4F21992DE100701EEA /* ViewController.h */,
 				0A284B5021992DE100701EEA /* ViewController.m */,
 				0A284B5221992DE100701EEA /* Main.storyboard */,
-				0A284B6721994BB900701EEA /* EntitiesBridge.h */,
-				0A284B6521994BB800701EEA /* EntityGeneratorViewController.h */,
-				0A284B6421994BB800701EEA /* EntityGeneratorViewController.m */,
-				0A284B6621994BB900701EEA /* EntityGeneratorViewController.xib */,
-				0A284B6221994BB800701EEA /* FLXKDBHelper.h */,
-				0A284B6321994BB800701EEA /* FLXKDBHelper.m */,
 				0A284B6B21994BCF00701EEA /* Entity */,
 				0A284B5521992DE300701EEA /* Assets.xcassets */,
 				0A284B5721992DE300701EEA /* LaunchScreen.storyboard */,
@@ -107,6 +93,13 @@
 				0A284B7221994BCF00701EEA /* FLXKEmotionDB.sqlite */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		0A7F32C2219AA83A00741275 /* Souce */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Souce;
 			sourceTree = "<group>";
 		};
 		2F322BF5B306D454C8A01A83 /* Pods */ = {
@@ -137,6 +130,7 @@
 				0A284B4521992DE100701EEA /* Sources */,
 				0A284B4621992DE100701EEA /* Frameworks */,
 				0A284B4721992DE100701EEA /* Resources */,
+				AA4F64EE4A53963631DC332B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +182,6 @@
 				0A284B5621992DE300701EEA /* Assets.xcassets in Resources */,
 				0A284B7821994BCF00701EEA /* FLXKEmotionDB.sqlite in Resources */,
 				0A284B5421992DE100701EEA /* Main.storyboard in Resources */,
-				0A284B6A21994BB900701EEA /* EntityGeneratorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +206,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AA4F64EE4A53963631DC332B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SqliteModelORMGeneratorDemo/Pods-SqliteModelORMGeneratorDemo-resources.sh",
+				"${PODS_ROOT}/SqliteModelORMGenerator/SqliteModelORMGenerator/EntityGeneratorViewController.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EntityGeneratorViewController.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SqliteModelORMGeneratorDemo/Pods-SqliteModelORMGeneratorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -220,8 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A284B6921994BB900701EEA /* EntityGeneratorViewController.m in Sources */,
-				0A284B6821994BB900701EEA /* FLXKDBHelper.m in Sources */,
 				0A284B5121992DE100701EEA /* ViewController.m in Sources */,
 				0A284B7421994BCF00701EEA /* EmotionGroup.m in Sources */,
 				0A284B5C21992DE300701EEA /* main.m in Sources */,

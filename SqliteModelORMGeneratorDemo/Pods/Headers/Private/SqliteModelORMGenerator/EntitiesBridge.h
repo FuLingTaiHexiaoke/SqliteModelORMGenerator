@@ -1,0 +1,1 @@
+../../../SqliteModelORMGenerator/SqliteModelORMGenerator/EntitiesBridge.h
