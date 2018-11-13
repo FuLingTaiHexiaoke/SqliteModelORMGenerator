@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "SqliteModelORMGenerator"
-s.version      = "0.0.6"
+s.version      = "0.0.8"
 s.summary      = "SqliteModelORMGenerator help use sqlite with ORM(Object Relational Mapping)"
 
 s.description  = <<-DESC

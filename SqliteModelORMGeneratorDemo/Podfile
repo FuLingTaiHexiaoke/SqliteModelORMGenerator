@@ -1,7 +1,6 @@
 #pod install --verbose --no-repo-update
 
 target ‘SqliteModelORMGeneratorDemo’ do
- pod 'FMDB'
- pod 'SqliteModelORMGenerator'
+# pod 'FMDB'
+# pod 'SqliteModelORMGenerator', '~> 0.0.8'
 end
-
